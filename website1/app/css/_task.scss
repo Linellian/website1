@@ -1,0 +1,49 @@
+.task {
+    
+
+
+    &__img {
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+        background-image: url('/images/task_1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 30vh;
+        width: 50%;
+        height: auto;
+    };
+
+    &__text {
+        display: block;
+        margin: auto;
+        width: 50vh;
+    }
+
+    &__question {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    &__variant {
+        display: block;
+        margin: auto;
+        margin-top: 2vh;
+        padding: 1vh;
+        text-align: left;
+        border-radius: 4px;
+        background-color: $lightGray;
+        color: $darkerGray;
+        font-size: 1.2rem;
+    }
+
+}
+
+.correct {
+    background-color: #35E0A3;
+}
+
+.incorrect {
+    background-color: $darkerGray;
+}
